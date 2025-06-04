@@ -1,0 +1,44 @@
+<!--
+Create a new file called welp.html.
+
+After setting up the file, add a <form> element in the <body>.
+
+Let's include this information (in order):
+
+The reviewer's name (first, last, nickname, doesn't matter).*
+The name of what they're reviewing (film name, book title, etc.).*
+Three "radio" buttons that ask if the reviewer would try again.
+An <input> to offer a rating (1 out of 5).*
+A <textarea> element for the reviewer to write comments (no more than 250 characters).
+An input type of "submit" that says "Submit Review".
+The inputs with * are required.
+
+Make sure to add labels and validate the inputs
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welp</title>
+</head>
+<body>
+    <form>
+        <h1>WELP!</h1>
+        <label for="name">Reviewer Name: <input type="text" id="name" placeholder="Enter your name" required></label>
+        <br><br>
+        <label for="novel">Novel Name: <input type="text" id="novel" placeholder="Web/Light Novel Name" required></label>
+        <br><br>
+        <label for="try">Would you try it again?</label>
+        <br></b>
+        <input type="radio" name="option" id="for">Yes
+        <input type="radio" name="option" id="for">No
+        <input type="radio" name="option" id="for">Maybe
+        <br>
+        <label for="review">Review:</label>
+        <br>
+        <textarea id="review" placeholder="Your Review" required></textarea>
+        <br>
+        <label for="submit"><input type="submit" value="Submit" id="submit"></label>
+    </form>
+</body>
+</html>
