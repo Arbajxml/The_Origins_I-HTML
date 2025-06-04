@@ -1,0 +1,120 @@
+<!--
+Let’s create your own MySpace Top 8 with HTML!
+
+Make a new file called top_8.html.
+
+We'll provide you with a <style> element with the styles already inside. Go ahead and copy/paste this into the <head> of your file:
+
+<style>
+  body {
+    width: 85%;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  img {
+    border: 3px solid blue;
+  }
+
+  #top-8-wrapper {
+    text-align: center;
+  }
+
+  .friend-card {
+    display: inline-block;
+    margin: 1px;
+    text-align: center;
+  }
+
+  .friend-name {
+    color: blue;
+  }
+</style>
+
+Next, let’s add the HTML.
+
+Add a <div> element with an id of "top-8-wrapper".
+Inside, add a <h1> heading element that says "My Top Friends!", followed by two <div> elements with a class of "top-8-row".
+Inside each <div> with a "top-8-row" class, add four more <div> elements that each have a class of "friend-card".
+Inside each <div> with a "friend-card" class, add the following:
+A <h2> header element with a "friend-name" class and the friend's name inside the tags.
+An <img> image element with a src and alt attribute.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Top-8</title>
+    <style>
+  body {
+    width: 85%;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  img {
+    border: 3px solid blue;
+  }
+
+  #top-8-wrapper {
+    text-align: center;
+  }
+
+  .friend-card {
+    display: inline-block;
+    margin: 1px;
+    text-align: center;
+  }
+
+  .friend-name {
+    color: blue;
+  }
+</style>
+</head>
+<body>
+    <div id="top-8-wrapper">
+        <h1>My Top Friends</h1>
+        <div class="top-8-row">
+            <div class="friend-card">
+                <h2 class="friend-name">Young Master</h2>
+                <img src="https://imgs.search.brave.com/-B5fbOqBRDLGLCI2jJogB1ALdUJseIkTEG5uEFIdqLM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iLnRo/dW1icy5yZWRkaXRt/ZWRpYS5jb20vLVN0/YnZleUxQazFxZm9E/VkZNWGVtTkYzbnph/NFByUUdXM01WcTdO/dzhUby5qcGc" alt="Arrogant Young Master">
+            </div>
+            <div class="friend-card">
+                <h2 class="friend-name">Fatty Wang</h2>
+                <img src="https://preview.redd.it/they-killed-off-fatty-wang-v0-yv5yiew4fqoe1.png?width=237&format=png&auto=webp&s=132d29617ea2f83f98770e5655d9fc9acc65dcaa" alt="Fatty Wang">
+            </div>
+            <div class="friend-card">
+                <h2 class="friend-name">Old Monster</h2>
+                <img src="https://imgs.search.brave.com/uMxSuFidpvVJn7ENu6Gd5OPDSzYAE0L7Kve70kgJnjU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vaW1hZ2l6/ZXIuaW1hZ2VzaGFj/ay5jb20vdjIvMTAy/NHg3NjhxOTAvOTIx/LzROZWVNTi5wbmc_/dz03ODgmc3NsPTE" alt="Old Monster ">
+            </div>            
+            <div class="friend-card">
+                <h2 class="friend-name">Old Geezer</h2>
+                <img src="https://imgs.search.brave.com/O35AhhM9-EHme0KLamVVmDSUfUZ335U2_R8NJ7sIB9E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS43NDAz/ODY4NjMuMTM4MC9z/dCxzbWFsbCw1MDd4/NTA3LXBhZCw2MDB4/NjAwLGY4ZjhmOC51/Mi5qcGc" alt="Old Geezer">
+            </div>
+        </div>
+        <div class="top-8-row">
+            <div class="friend-card">
+                <h2 class="friend-name">Great Sage Heavens Equal</h2>
+                <img src="https://imgs.search.brave.com/BTtSoKU6C7DIUCjIHvCa8QEkfPL1BIFc8Vyo301EvX4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/dGhlLWdyZWF0LXNh/Z2UtaGVhdmVucy1l/cXVhbC12MC1xc2lx/NWUzcXNjYmIxLnBu/Zz93aWR0aD02NDAm/Y3JvcD1zbWFydCZh/dXRvPXdlYnAmcz1k/ZGU0MDUwZmM0ZjVh/OTM0M2QxN2QwMzI2/NmM0ZTcyNWYxMjc2/ODIw" alt="Sun WuKong">
+            </div>                    
+            <div class="friend-card">
+                <h2 class="friend-name">Martial Ancestor</h2>
+                <img src="https://imgs.search.brave.com/hNxad5224uYtl3ijbLQZL9FtaAh88egBgo1KlJBD-f8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/d3RyLWxhYi5jb20v/Y2RuL3Nlcmllcy9T/aDlpYWp1d1RrU01k/dUJrdFhnWXdnLmpw/Zw" alt="My Junior">
+            </div>
+            <div class="friend-card">
+                <h2 class="friend-name">Jade Beauty</h2>
+                <img src="https://imgs.search.brave.com/QGLfrNXSOP0KrhBSeMIJZ-WDM8FDUxiiHEHkWDN95gg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzJhL2Zi/LzVkLzJhZmI1ZGI0/MGI2MjE5NWUyZDFm/YzZmMmI3ZTA5MGUx/LmpwZw" alt="Littly Sister :>">
+            </div>
+            <div class="friend-card">
+                <h2 class="friend-name">Heavenly Demon</h2>
+                <img src="https://imgs.search.brave.com/Uzsj3qrc9pxv_C6m8Zi7We0ADqeEmPe7nNXB3Dqtqvs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzU4Lzhh/LzgyLzU4OGE4Mjli/M2VlYmM2NTU4MTUx/YjBmNGQzYjA2OGM1/LmpwZw" alt="Goat">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
